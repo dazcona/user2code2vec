@@ -2,5 +2,7 @@
 
 Embeddings for profiling users based on their code design
 
-**Representations**: [Program Vectors](./Program Vectors.ipynb)
+**Representations**: [Program Vectors][vectors]
+
+[vectors]: ./Program%20Vectors.ipynb
 
