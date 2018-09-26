@@ -10,7 +10,7 @@ Embeddings for profiling users based on their code design
 * [Embeddings][emb]
 
 ## user2code2vec
-* Coming soon...
+* [user2code2vec][user2code2vec]
 
 ## Utils
 * [Viz an AST][viz]
@@ -19,5 +19,6 @@ Embeddings for profiling users based on their code design
 [vectors]: ./Program%20Vectors.ipynb
 [bow]: ./code2vec%20BOW.ipynb
 [emb]: ./code2vec%20Embeddings.ipynb
+[user2code2vec]: ./user2code2vec.ipynb
 [viz]: ./Visualize%20an%20AST.ipynb
 [example]: ./Word%20Embeddings%20Example.ipynb
