@@ -2,7 +2,9 @@
 
 Embeddings for Profiling Students Based on Distributional Representations of Source Code. 
 
-Full research paper presented at Learning Analytics & Knowledge 2019 Conference in AZ, USA
+Full research paper presented at Learning Analytics & Knowledge 2019 Conference in AZ, USA ([LAK 2019](https://lak19.solaresearch.org/))
+
+Please consider [citing](data/citations/azcona2019user2code2vec.bib) this paper if you use any of the work.
 
 ## Representations
 
@@ -23,12 +25,12 @@ Full research paper presented at Learning Analytics & Knowledge 2019 Conference 
 * [BOW][emb_example]
 * [Word Embeddings][emb_example]
 
-[vectors]: ./Program%20Vectors.ipynb
-[bow_first]: ./code2vec%20BOW.ipynb
-[bow_second]: ./code2vec%20BOW%20(Train%20%26%20Score).ipynb
-[emb_f]: ./code2vec%20Embeddings.ipynb
-[emb_s]: ./code2vec%20Embeddings%20II.ipynb
-[user2code2vec]: ./user2code2vec.ipynb
-[viz]: ./Visualize%20an%20AST.ipynb
-[emb_example]: ./Word%20Embeddings%20Example.ipynb
-[bow_example]: ./BOW%20Example.ipynb
+[vectors]: notebooks/Program%20Vectors.ipynb
+[bow_first]: notebooks/code2vec%20BOW.ipynb
+[bow_second]: notebooks/code2vec%20BOW%20(Train%20%26%20Score).ipynb
+[emb_f]: notebooks/code2vec%20Embeddings.ipynb
+[emb_s]: notebooks/code2vec%20Embeddings%20II.ipynb
+[user2code2vec]: notebooks/user2code2vec.ipynb
+[viz]: notebooks/Visualize%20an%20AST.ipynb
+[emb_example]: notebooks/Word%20Embeddings%20Example.ipynb
+[bow_example]: notebooks/BOW%20Example.ipynb
