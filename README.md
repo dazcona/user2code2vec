@@ -4,7 +4,7 @@ Embeddings for Profiling Students Based on Distributional Representations of Sou
 
 Full research paper presented at Learning Analytics & Knowledge 2019 Conference in AZ, USA ([LAK 2019](https://lak19.solaresearch.org/))
 
-Please consider [citing](data/citations/azcona2019user2code2vec.bib) this paper if you use any of the work.
+Please consider [citing](data/citations/azcona2019user2code2vec.md) this paper if you use any of the work.
 
 ## Representations
 
