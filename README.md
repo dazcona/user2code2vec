@@ -15,7 +15,7 @@ In this work, we propose a new methodology to profile individual students of Com
     2. Code as Token Vectors: [Python’s Tokenizer library](https://docs.python.org/3/library/tokenize.html) for source code analysis which provides a lexical scanner for Python code
     3. Code as Abstract Syntax Tree Vectors: tree representation of the abstract syntactic structure of source code to preserve the structure of the source code in a submission
 
-#### Example that calls a function
+#### Example that calls a function:
 
 ```python
 #!/usr/bin/env python
@@ -31,7 +31,7 @@ say_hello()
 
 2. Code as Token Vectors: Categories or IDs
 ```python
-Characters  Category    Token
+Characters      Category    Token
 1,0-1,3:	NAME        'def'
 1,4-1,13:	NAME        'say_hello'
 1,13-1,14:	OP          '('
