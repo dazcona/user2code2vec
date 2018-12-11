@@ -96,13 +96,19 @@ For each course and academic year, a User Representation Matrix is constructed f
 1. Word Tokenizer
 2. Token Word Python Tokenizer
 
-* [user2code2vec][user2code2vec]
+* [user2code2vec][user2code2vec]: vectorization of the User Representation Matrix of shape (number_tasks, MAX_LENGTH). The User Representation Matrix for each student is flattened out as a long vector. PCA is then leveraged as the dimensionality reduction technique to visualize the 100-dimension vectors or user embeddings into 2 dimensions. In short, a student is represented as a vector of her submissions.
 
 User Raw Representations Using Word Tokens
 ![](data/img/user2code2vec_cs1_tokens_raw.png) 
 
 User Learned Embeddings Using Word Tokens
 ![](data/img/user2code2vec_cs1_tokens_learned.png)
+
+Each dot in the graphs is a student represented by the vector of her submissions. For the course analysed, Programming I, these student vectors have 13,800 dimensions: 276 tasks and sequence padding limit is 50. The colors show the performance average on the course and it is very hard to cluster students due to the [Curse of dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality). 
+
+## Conclusion
+
+In a high-dimensional feature space with each feature having a range of possible values, typically an enormous amount of training data is required to ensure that there are several samples with each combination of values. A typical rule of thumb is that there should be at least 5 training examples for each dimension in the representation. Around a hundred of students is not sufficient. Thus instead of representing each student using the concatenation of all their submission made in a course, it would be better to identify important features from each submission and concatenate key features across the code submission. In short, keep the number of features low to effectively learn from constrained data. These user2code2vec representations can then be used to identify student neighbours for programming recommendations. 
 
 ## Utils
 
