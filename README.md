@@ -23,8 +23,15 @@ Please consider [citing](data/citations/azcona2019user2code2vec.md) this paper i
 
 * [Viz an AST][viz]: An abstract syntax tree (AST) is a tree representation of the abstract syntactic structure of source code written in a programming language. In Python, we leverage the ast module to process trees of the Python abstract syntax grammar. Visualizations are made using a great [notebook](https://github.com/hchasestevens/show_ast) developed by H. Chase Stevens.
 
-* [BOW][emb_example]
-* [Word Embeddings][emb_example]
+![](data/img/hello_world.png)
+
+![](data/img/say_hello.png)
+
+![](data/img/sum.png)
+
+* [BOW (bag-of-words)][emb_example]: The bag-of-words model is a simplifying representation used in natural language processing and information retrieval (IR) where a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity. In order to grab these words from Python source code we can leverage the tokenize module, the tokenizer for Python source.  It provides a lexical scanner for Python source code.
+
+* [Word Embeddings][emb_example]: 
 
 [vectors]: notebooks/Program%20Vectors.ipynb
 [bow_first]: notebooks/code2vec%20BOW.ipynb
