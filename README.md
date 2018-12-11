@@ -74,8 +74,15 @@ Parent Node     Child Node
 
 ## code2vec
 
-* [BOW (bag-of-words) Part I][bow_first], [BOW Part II][bow_second]
-* [Embeddings Part I][emb_f], [Embeddings Part II][emb_s]
+Transform student code submissions into meaningful vectors using bag-of-words or embeddings. For each technique, we leverage our code vectorization approaches: Words, Python Token Categories, Python Token Words and AST Nodes.
+1. Code bag-of-words: orderless source code representation as a bag of its words. Further details: [BOW (bag-of-words) Part I][bow_first], [BOW Part II][bow_second]
+2. Code Embeddings: code submissions are mapped into vectors of real numbers in a continuous vector space. Further details: [Embeddings Part I][emb_f], [Embeddings Part II][emb_s]
+
+![](data/img/code2vec.png "Performance of the Models Using BOW and Embeddings")
+
+#### Embeddings for the Top Words \& Token Words Projected from 100D to 2D Using PCA
+
+![](data/img/embeddings_words.png "Embeddings for the Top 20 Most Common Words") ![](data/img/embeddings_tokens.png "Embeddings for the Top 20 Most Common Token Words")
 
 ## user2code2vec
 
