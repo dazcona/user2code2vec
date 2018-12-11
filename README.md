@@ -92,7 +92,17 @@ Embeddings for the Top 20 Most Common Token Words
 
 ## user2code2vec
 
+For each course and academic year, a User Representation Matrix is constructed for each student using the code vectors of the submissions to the proposed labsheets by the lecturer. Having a vector representation of code submissions allows researchers to generate a higher-level representation for each student. This User Representation Matrix is built by vectorizing the latest submission for each task using either: 
+1. Word Tokenizer
+2. Token Word Python Tokenizer
+
 * [user2code2vec][user2code2vec]
+
+User Raw Representations Using Word Tokens
+![](data/img/user2code2vec_cs1_tokens_raw.png) 
+
+User Learned Embeddings Using Word Tokens
+![](data/img/user2code2vec_cs1_tokens_learned.png)
 
 ## Utils
 
