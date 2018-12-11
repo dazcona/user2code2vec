@@ -31,7 +31,7 @@ Please consider [citing](data/citations/azcona2019user2code2vec.md) this paper i
 
 * [BOW (bag-of-words)][emb_example]: The bag-of-words model is a simplifying representation used in natural language processing and information retrieval (IR) where a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity. In order to grab these words from Python source code we can leverage the tokenize module, the tokenizer for Python source.  It provides a lexical scanner for Python source code.
 
-* [Word Embeddings][emb_example]: 
+* [Word Embeddings][emb_example]: Word embeddinga are feature learning techniques in NLP where words or phrases from the vocabulary are mapped to vectors of real numbers. Conceptually it involves a mathematical embedding from a space with one dimension per word to a continuous vector space with a much lower dimension. A common method to develop this mapping is fitting a Neural Network. We use PCA to reduce the dimensionality of the embeddings and plot them in 2D.
 
 [vectors]: notebooks/Program%20Vectors.ipynb
 [bow_first]: notebooks/code2vec%20BOW.ipynb
