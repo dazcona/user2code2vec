@@ -78,11 +78,17 @@ Transform student code submissions into meaningful vectors using bag-of-words or
 1. Code bag-of-words: orderless source code representation as a bag of its words. Further details: [BOW (bag-of-words) Part I][bow_first], [BOW Part II][bow_second]
 2. Code Embeddings: code submissions are mapped into vectors of real numbers in a continuous vector space. Further details: [Embeddings Part I][emb_f], [Embeddings Part II][emb_s]
 
-![](data/img/code2vec.png "Performance of the Models Using BOW and Embeddings")
+#### Performance of the Models Using BOW and Embeddings
+
+![](data/img/code2vec.png)
 
 #### Embeddings for the Top Words \& Token Words Projected from 100D to 2D Using PCA
 
-![](data/img/embeddings_words.png "Embeddings for the Top 20 Most Common Words") ![](data/img/embeddings_tokens.png "Embeddings for the Top 20 Most Common Token Words")
+Embeddings for the Top 20 Most Common Words
+![](data/img/embeddings_words.png) 
+
+Embeddings for the Top 20 Most Common Token Words
+![](data/img/embeddings_tokens.png)
 
 ## user2code2vec
 
