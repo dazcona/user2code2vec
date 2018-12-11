@@ -21,7 +21,8 @@ Please consider [citing](data/citations/azcona2019user2code2vec.md) this paper i
 
 ## Utils
 
-* [Viz an AST][viz]
+* [Viz an AST][viz]: An abstract syntax tree (AST) is a tree representation of the abstract syntactic structure of source code written in a programming language. In Python, we leverage the ast module to process trees of the Python abstract syntax grammar. Visualizations are made using a great [notebook](https://github.com/hchasestevens/show_ast) developed by H. Chase Stevens.
+
 * [BOW][emb_example]
 * [Word Embeddings][emb_example]
 
