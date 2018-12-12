@@ -118,6 +118,17 @@ In a high-dimensional feature space with each feature having a range of possible
 
 * [Word Embeddings][emb_example]: Word embeddings are feature learning techniques in NLP where words or phrases from the vocabulary are mapped to vectors of real numbers. Conceptually it involves a mathematical embedding from a space with one dimension per word to a continuous vector space with a much lower dimension. A common method to develop this mapping is fitting a Neural Network. We use PCA to reduce the dimensionality of the embeddings and plot them in 2D.
 
+## Contributors
+
+* [David Azcona](https://computing.dcu.ie/~dazcona/)
+* [Piyush Arora](https://computing.dcu.ie/~parora/)
+* [Sharon Hsiao](http://www.public.asu.edu/~ihsiao1/)
+* [Alan Smeaton](https://www.computing.dcu.ie/~asmeaton/)
+
+## Other examples
+
+![](data/img/sum.png)
+
 [vectors]: notebooks/Program%20Vectors.ipynb
 [bow_first]: notebooks/code2vec%20BOW.ipynb
 [bow_second]: notebooks/code2vec%20BOW%20(Train%20%26%20Score).ipynb
@@ -127,9 +138,3 @@ In a high-dimensional feature space with each feature having a range of possible
 [viz]: notebooks/Visualize%20an%20AST.ipynb
 [emb_example]: notebooks/Word%20Embeddings%20Example.ipynb
 [bow_example]: notebooks/BOW%20Example.ipynb
-
-## Other examples
-
-![](data/img/hello_world.png)
-
-![](data/img/sum.png)
